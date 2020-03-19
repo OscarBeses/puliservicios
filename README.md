@@ -1,19 +1,19 @@
-# [Paper Kit 2 Angular - Free Bootstrap 4 UI Kit](https://demos.creative-tim.com/paper-kit-2-angular/)
+# [PuliServicios - Free Bootstrap 4 UI Kit](https://demos.creative-tim.com/paper-kit-2-angular/)
 
 ![version](https://img.shields.io/badge/version-1.3.0-blue.svg) [![license][license-badge]][LICENSE] [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/paper-kit-2-angular.svg?maxAge=2592000)](https://github.com/creativetimofficial/paper-kit-2-angular/issues?q=is%3Aopen+is%3Aissue) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/creativetimofficial/paper-kit-2-angular.svg?maxAge=259200)](https://github.com/creativetimofficial/paper-kit-2-angular/issues?q=is%3Aissue+is%3Aclosed) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
-![Paper Kit 2 Angular](https://s3.amazonaws.com/creativetim_bucket/products/65/original/opt_pk2_angular_thumbnail.jpg "Paper Kit 2 Angular Free")
+![PuliServicios](https://s3.amazonaws.com/creativetim_bucket/products/65/original/opt_pk2_angular_thumbnail.jpg "PuliServicios Free")
 
-Paper Kit 2 Angular is a free Bootstrap 4 UI Kit with pale colors, beautiful typography built for Angular 7.
+PuliServicios is a free Bootstrap 4 UI Kit with pale colors, beautiful typography built for Angular 7.
 
 All components are fully responsive and look great on every screen size. Transitions, shadows, colors, they all resemble the flow you would have using pieces of paper.
 
 We have created Paper UI Kit kit having pastel colors and paper in mind. It feels light, fresh and easy to go through.
 
-Paper Kit 2 Angular is using Ng Bootstrap (https://ng-bootstrap.github.io/#/home), as core framework.
+PuliServicios is using Ng Bootstrap (https://ng-bootstrap.github.io/#/home), as core framework.
 
 **Bootstrap 4 support**
 
-Paper Kit 2 Angular is built on top of Bootstrap 4, so it fully supports it. Most of the elements from the framework are re-designed to resemble sheets of paper and color pastels. If the are elements that we have not touched, they will gracefully fall back to the Bootstrap 4 default.
+PuliServicios is built on top of Bootstrap 4, so it fully supports it. Most of the elements from the framework are re-designed to resemble sheets of paper and color pastels. If the are elements that we have not touched, they will gracefully fall back to the Bootstrap 4 default.
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ Paper Kit 2 Angular is built on top of Bootstrap 4, so it fully supports it. Mos
 
 | HTML | Angular |
 | --- | --- |
-| ![Paper Kit 2 HTML](https://s3.amazonaws.com/creativetim_bucket/products/61/opt_pk2_thumbnail.jpg) | ![Paper Kit 2 Angular](https://s3.amazonaws.com/creativetim_bucket/products/65/opt_pk2_angular_thumbnail.jpg)
+| ![Paper Kit 2 HTML](https://s3.amazonaws.com/creativetim_bucket/products/61/opt_pk2_thumbnail.jpg) | ![PuliServicios](https://s3.amazonaws.com/creativetim_bucket/products/65/opt_pk2_angular_thumbnail.jpg)
 
 ## Demo
 
@@ -194,9 +194,9 @@ At present, we officially aim to support the last two versions of the following 
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/paper-kit-2-angular/issues)
 
 ## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Paper Kit 2 Angular. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the PuliServicios. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Paper Kit 2 Angular. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
+1. Make sure that you are using the latest version of the PuliServicios. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
