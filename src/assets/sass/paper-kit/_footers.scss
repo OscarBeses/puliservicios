@@ -3,6 +3,7 @@
     position: relative;
     line-height: 20px;
 }
+
 .footer nav > ul {
   list-style: none;
   margin: 0;
@@ -11,7 +12,7 @@
 }
 .footer nav > ul > li{
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 10px;
     margin: 15px 3px;
     line-height: 20px;
     text-align: center;
@@ -34,11 +35,17 @@
 }
 .footer .copyright {
   color: #777777;
-  padding: 10px 0px;
+  padding: 10px 0;
   font-size: 14px;
-  margin: 15px 3px;
+  margin: 15px 0;
   line-height: 20px;
   text-align: center;
+}
+@media (max-width: 767.98px) {
+    .footer .container .row > span{
+        text-align: center;
+        width: 100%;
+    }
 }
 .footer .heart{
     color: #EB5E28;

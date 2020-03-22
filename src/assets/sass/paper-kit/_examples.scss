@@ -156,14 +156,11 @@
 .follows hr{
     margin-top: 10px;
 }
-.alert h5{
-    // margin-bottom: 10px;
-}
 .title-brand{
     max-width: 730px;
     margin: 0 auto;
     position: relative;
-    text-align: center;
+    /*text-align: center;*/
     color: #FFFFFF;
     display: block;
 
@@ -186,12 +183,13 @@
     margin: 0;
     color: #FFFFFF;
     // background: #fbf8ec;
-    background: -moz-linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
-    background: -webkit-linear-gradient(to bottom, #FFFFFF 35%,#4e6773 100%);
-    background: -ms-linear-gradient(to bottom, #FFFFFF 35%,#4e6773 100%);
-    background: -o-linear-gradient(to bottom, #FFFFFF 35%,#4e6773 100%);
-    background: linear-gradient(to bottom, #FFFFFF 35%,#4e6773 100%);
+    background: -moz-linear-gradient(to bottom, #FFFFFF 35%, #a2b2b9 100%);
+    background: -webkit-linear-gradient(to bottom, #FFFFFF 35%,#a2b2b9 100%);
+    background: -ms-linear-gradient(to bottom, #FFFFFF 35%,#a2b2b9 100%);
+    background: -o-linear-gradient(to bottom, #FFFFFF 35%,#a2b2b9 100%);
+    background: linear-gradient(to bottom, #FFFFFF 35%,#a2b2b9 100%);
 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -217,51 +215,24 @@
     }
 }
 
-.fog-low{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-left: -35%;
-    margin-bottom: -50px;
-    width: 110%;
-    opacity: .85;
-
-    img{
-        width: 100%;
-    }
-
-    &.right{
-        margin-left: 30%;
-        opacity: 1;
-    }
-}
-.angular-logo{
-    max-width: 90px;
-    margin: -50px auto 45px;
-
-    img{
-        width: 100%;
-    }
-}
-.page-header{
-    .content-center{
-        //margin-top: 85px;
-    }
-}
 .moving-clouds{
     position: absolute;
-    z-index: 1;
     bottom: 0;
-    left: 0;
-    width: 250.625em;
-    height: 43.75em;
-    -webkit-animation: cloudLoop 80s linear infinite;
-    animation: cloudLoop 80s linear infinite;
+    right: 0;
+    z-index: 1;
+    width: calc(100% - 13em);
+    height: 23em;
+    animation: cloudLoop 5s infinite alternate;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
 }
 
-@keyframes cloudLoop{   0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
-                        100%{-webkit-transform:translate3d(-50%,0,0);
-                        transform:translate3d(-50%,0,0)}
+@keyframes cloudLoop{   from{
+                            transform:translate3d(75%,0,0)
+                        }
+                        to{
+                            transform:translate3d(0,0,0)
+                        }
                     }
 .following{
     img{
@@ -272,9 +243,10 @@
 .ie-background{
     .page-header{
         .content-center{
+            position: absolute;
             top: 50%;
             left: 50%;
-            position: absolute;
+            transform: translate(-50%, -75%);
             -ms-transform: translate(-50%, -75%);
             .title-brand{
                 .presentation-title{
@@ -285,8 +257,19 @@
     }
 }
 
+.page-header{
+    .content-center{
+        margin-top: 85px;
+    }
+}
+
+/* Para móviles */
 @media (max-width: 500px){
     .presentation-title{
         font-size: 5em;
+    }
+    .moving-clouds{
+        height: 21em;
+        width: calc(100% - 6em);
     }
 }
