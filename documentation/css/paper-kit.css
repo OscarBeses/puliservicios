@@ -1,17 +1,18 @@
 /*!
 
  =========================================================
- * Paper Kit 2 - v2.0.0
+ * Puliservicios - v1.0.0
  =========================================================
 
- * Product Page: http://www.creative-tim.com/product/paper-kit-2
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/timcreative/paper-kit/blob/master/LICENSE.md)
+ * Creator Page: https://oscarbeses.com
+ * Template Page: http://www.creative-tim.com/product/paper-kit-2
+ * Copyright 2020 Oscar Beses (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/OscarBeses/puliservicios/blob/master/LICENSE)
 
  =========================================================
 
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
+
 /*      light colors - used for select dropdown         */
 /*           Font Smoothing      */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
@@ -1128,7 +1129,7 @@ textarea.form-control {
 .noUi-target,
 .noUi-target * {
   -webkit-touch-callout: none;
-  -ms-touch-action: none;
+  touch-action: none;
   user-select: none;
   box-sizing: border-box;
 }
@@ -4254,7 +4255,6 @@ textarea.form-control {
 
 .modal-footer .divider {
   background-color: #DDDDDD;
-  display: inline-block;
   float: inherit;
   height: 63px;
   margin: 0px -3px;
@@ -4682,7 +4682,7 @@ textarea.form-control {
   }
 
   .navbar-fixed-top {
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
 
   .social-line .btn {
@@ -5937,7 +5937,7 @@ textarea.form-control {
   background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
   background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
   background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
