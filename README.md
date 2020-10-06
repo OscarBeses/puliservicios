@@ -2,10 +2,12 @@ Al editar:
 1. git pull
 2. cambiar lo que quieras
 3. ng build
-4. firebase deploy
+4. firebase deploy ('npm install -g firebase-tools' y 'firebase login' antes si no lo tengo)
 5. git add .
 6. git commit -m "lo que sea"
 7. git push
+
+* ng serve para desplegar en local
 
 La versión de angular que hay que tener instalada es la 9.0.6
 
