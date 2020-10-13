@@ -9,9 +9,9 @@ Al editar:
 
 * ng serve para desplegar en local
 
-La versión de angular que hay que tener instalada es la 9.0.6
-
 Si es una instalación nueva hay que hacer un npm install para que descargue las dependencias sin problemas
 Si al hacer el ng build da problemas hay que instalar esta dependencia manualmente:
 npm install @angular-devkit/build-angular@0.901.9
 
+La versión de angular que hay que tener instalada es la 9.0.6
+npm install -g @angular/cli@9.0.6
