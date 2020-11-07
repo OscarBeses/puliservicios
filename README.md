@@ -1,7 +1,5 @@
 Realizado con:        angular, solo front-end.
-
 Desplegado en:        firebase (gratis).
-
 Dominio comprado en:  google domains (12€). --> https://puliservicios.com/
 
 Al editar:
