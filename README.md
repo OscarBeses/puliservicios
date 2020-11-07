@@ -1,3 +1,7 @@
+Realizado con:        angular, solo front-end.
+Desplegado en:        firebase (gratis).
+Dominio comprado en:  google domains (12€). --> https://oscarbeses.com/
+
 Al editar:
 1. git pull
 2. cambiar lo que quieras
