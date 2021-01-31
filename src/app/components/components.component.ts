@@ -4,24 +4,7 @@ import { NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 @Component({
     selector: 'app-components',
     templateUrl: './components.component.html',
-    styles: [`
-    ngb-progressbar {
-        margin-top: 5rem;
-    }
-    .telefono {
-        font-size: xxx-large;
-    }
-    .puliserviciosFace {
-        font-size: xx-large;
-    }
-    .carousel-caption p {
-        font-size: x-large;
-        font-weight: bold;
-        color: #e6e6e6;
-        background: rgba(0,0,0,.4);
-        border-radius:  20px 5px;
-    }
-    `]
+    styleUrls: ['./components.component.scss']
 })
 
 export class ComponentsComponent implements OnInit {
@@ -53,6 +36,10 @@ export class ComponentsComponent implements OnInit {
                 input_group[i].classList.remove('input-group-focus');
             });
         }
+    }
+
+    scrollToMain(){
+        document.querySelector('main').scrollIntoView({ behavior: 'smooth' });
     }
 
 }

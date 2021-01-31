@@ -1,5 +1,5 @@
 .section{
-    padding: 70px 0;
+    padding: 1em 0;
     position: relative;
     background-color: #FFFFFF;
 }
@@ -51,13 +51,7 @@
         border-color: rgba(255, 255, 255, 0.19);
     }
 }
-.page-header,
-.carousel-caption{
-    .title,
-    .info-title{
-        color: $white-color;
-    }
-}
+
 [class*="features-"],
 [class*="team-"],
 [class*="projects-"],
@@ -81,10 +75,10 @@
         width: 100%;
         z-index: 1;
     }
-    & .container{
-        position: relative;
-        z-index: 2;
-    }
+    // & .container{
+    //     position: relative;
+    //     z-index: 2;
+    // }
 }
 
 .section-login{

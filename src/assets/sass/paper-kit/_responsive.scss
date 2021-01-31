@@ -12,12 +12,12 @@
     h6{
         font-size: 1em;
     }
-    .navbar .container{
-         left: 0;
-          width: 100%;
-         @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));
-         position: relative;
-    }
+    // .navbar .container{
+    //      left: 0;
+    //       width: 100%;
+    //      @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+    //      position: relative;
+    // }
     .navbar .navbar-nav .dropdown-menu{
         height: 400px;
         overflow-y: scroll;
@@ -37,18 +37,6 @@
 
     .fog-low{
         margin-bottom: -35px;
-    }
-    .presentation-title{
-        font-size: 5em;
-    }
-    .presentation-subtitle{
-        margin-top: 40px;
-    }
-    .title-brand{
-        max-width: 450px;
-        .type{
-            font-size: 16px;
-        }
     }
 
     .navbar-header .navbar-toggle {
@@ -587,14 +575,14 @@
                 @include black-filter(.8);
             }
         }
-        .navbar{
-            .container{
-                .navbar-toggler{
-                    display: block;
-                    margin-top: 20px;
-                }
-            }
-        }
+        // .navbar{
+        //     .container{
+        //         .navbar-toggler{
+        //             display: block;
+        //             margin-top: 20px;
+        //         }
+        //     }
+        // }
 
         .navbar-translate{
             width: 100%;

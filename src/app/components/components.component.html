@@ -1,6 +1,6 @@
-<div class="wrapper">
-    <div class="page-header section-dark">
-        <div class="filter"></div>
+<div class="wrapper" style="scroll-behavior: smooth;">
+    <div class="page-header">
+        <!-- <div class="filter"></div> -->
         <div class="content-center">
             <div class="container">
                 <div class="title-brand">
@@ -12,7 +12,10 @@
             </div>
         </div>
     </div>
-    <div class="main">
+    <a id="buttonToMain" class="w-100 text-center m-auto" (click)="scrollToMain()">
+        <i class="fas fa-arrow-alt-circle-down fa-5x"></i>
+    </a>
+    <main>
         <app-basicelements></app-basicelements>
         <div class="section" id="carousel">
             <div class="container">
@@ -207,7 +210,7 @@
                                                 (click)="d.toggle()" (focus)="focus=true" (blur)="focus=false" />
                                             <div class="input-group-append">
                                                 <span class="glyphicon glyphicon-calendar input-group-text">
-                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    <i class="fas fa-calendar" aria-hidden="true"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -301,7 +304,7 @@
                             <h3 class="title">Bienvenido</h3>
                             <div class="social-line text-center">
                                 <a href="#pablo" class="btn btn-neutral btn-facebook btn-just-icon">
-                                    <i class="fa fa-facebook-square"></i>
+                                    <i class="fab fa-facebook"></i>
                                 </a>
                             </div>
                             <form class="register-form">
@@ -369,7 +372,7 @@
         </div>
     -->
         
-        <div class="section section-buttons" style="background-color: lightgrey;">
+        <div class="section section-buttons contacto" style="background-color: lightgrey;">
             <div class="container">
                 <div class="tim-title">
                     <div itemscope itemtype="http://schema.org/LocalBusiness">
@@ -379,13 +382,13 @@
                     <div>
                         <h2>O háblanos por Facebook</h2>
                         <a class="my-0" rel="tooltip" title="Visitanos en Facebook" data-placement="bottom" href="https://www.facebook.com/Puliservicios-397394460596334/" target="_blank">
-                            <i id="icono-facebook" class="fa fa-facebook-square fa-3x"></i>
-                            <span style="margin-left: 1em;" class="puliserviciosFace">PuliServicios</span>
+                            <i class="fab fa-facebook fa-3x"></i>
+                            <span style="margin-left: 0.3em;" class="puliserviciosFace">PuliServicios</span>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     
-    </div>
+    </main>
 </div>

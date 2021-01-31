@@ -92,11 +92,6 @@
     background-attachment: scroll;
 }
 
-.main {
-    background-color: #fff;
-    /*     position: relative; */
-}
-
 .navigation-example {
     background-image: url('../img/ilya-yakover.jpg');
     background-position: center center;
@@ -1280,11 +1275,6 @@ pre.prettyprint {
 
 .example-pages {
     margin-top: 50px;
-}
-
-.main .section:first-of-type {
-    position: relative;
-    z-index: 2;
 }
 
 .profile-content {
