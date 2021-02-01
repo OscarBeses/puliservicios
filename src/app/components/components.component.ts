@@ -39,7 +39,7 @@ export class ComponentsComponent implements OnInit {
     }
 
     scrollToMain(){
-        document.querySelector('main').scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('main').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
 }
