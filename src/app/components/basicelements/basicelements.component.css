@@ -1,7 +1,13 @@
 p {
-  font-size: 20px;
+  font-size: x-large;
 }
 
 .margen-negativo {
-  margin-top: -65px;
+  margin-top: -125px;
+}
+
+@media (max-width: 767px) {
+  .margen-negativo {
+    margin-top: -90px;
+  }
 }

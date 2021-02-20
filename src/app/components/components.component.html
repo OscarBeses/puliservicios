@@ -7,8 +7,9 @@
                     <h1 class="presentation-title">Puli Servicios</h1>
                     <div class="moving-clouds" style="background-image: url('assets/img/pulidora.png'); "></div>
                 </div>
-                <h2 class="presentation-subtitle text-center">Pulido, vitrificado y abrillantado de suelos en Valencia y
-                    alrededores</h2>
+                <h2 class="presentation-subtitle text-center">
+                    Pulido, vitrificado y abrillantado de suelos en Valencia y alrededores
+                </h2>
             </div>
         </div>
     </div>
@@ -17,7 +18,16 @@
     </a>
     <main>
         <app-basicelements></app-basicelements>
-        <app-carousel></app-carousel>
-        <app-contacto></app-contacto>    
+        <div class="container">
+            <div class="tim-title">
+                <h2 class="pt-5">Servicios</h2>
+            </div>
+        </div>
+        <app-carousel [titulo]= "titHidraul" [descripcion]="descHidraul" [fotos]="fotosCarouselHidraulico"></app-carousel>
+        <app-carousel [titulo]= "titTerrazoRest" [descripcion]="descTerrazoRest" [fotos]="fotosCarouselTerrazoRest" [order]="-1"></app-carousel>
+        <app-carousel [titulo]= "titMarmol" [descripcion]="descMarmol" [fotos]="fotosCarouselMarmol"></app-carousel>
+        <app-carousel [titulo]= "titTerrazoBajo" [descripcion]="descTerrazoBajo" [fotos]="fotosCarouselTerrazoBajo" [order]="-1"></app-carousel>
+        <app-carousel [titulo]= "titMadera" [descripcion]="descMadera" [fotos]="fotosCarouselMadera"></app-carousel>
+        <app-contacto></app-contacto>
     </main>
 </div>

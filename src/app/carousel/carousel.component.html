@@ -1,51 +1,20 @@
-<div class="section" id="carousel">
-    <div class="container">
-        <div class="tim-title">
-            <h2>Trabajos realizados</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-8 mr-auto ml-auto">
-                <div class="card page-carousel">
-                    <ngb-carousel>
-                        <ng-template ngbSlide>
-                            <img src="./assets/img/carousel/marmol_antes1.jpeg" alt="Marmol antes">
-                            <div class="carousel-caption">
-                                <p>Marmol antes</p>
-                            </div>
-                        </ng-template>
-                        <ng-template ngbSlide>
-                            <img src="./assets/img/carousel/marmol_despues1.jpeg" alt="Marmol despues">
-                            <div class="carousel-caption">
-                                <p>Marmol después</p>
-                            </div>
-                        </ng-template>
-                        <ng-template ngbSlide>
-                            <img src="./assets/img/carousel/hidraulico_durante.jpeg" alt="Hidráulico durante tratamiento">
-                            <div class="carousel-caption">
-                                <p>Hidráulico durante tratamiento</p>
-                            </div>
-                        </ng-template>
-                        <ng-template ngbSlide>
-                            <img src="./assets/img/carousel/hidraulico_despues.jpeg" alt="Hidráulico después">
-                            <div class="carousel-caption">
-                                <p>Hidráulico después</p>
-                            </div>
-                        </ng-template>
-                        <ng-template ngbSlide>
-                            <img src="./assets/img/carousel/escaleras_antes.jpeg" alt="Escaleras antes">
-                            <div class="carousel-caption">
-                                <p>Escaleras antes</p>
-                            </div>
-                        </ng-template>
-                        <ng-template ngbSlide>
-                            <img src="./assets/img/carousel/escaleras_despues.jpeg" alt="Escaleras después">
-                            <div class="carousel-caption">
-                                <p>Escaleras después</p>
-                            </div>
-                        </ng-template>
-                    </ngb-carousel>
-                </div>
-            </div>
-        </div>
+<article class="post style1">
+  <div class="page-carousel">
+    <ngb-carousel interval="8000">
+      <ng-template ngbSlide *ngFor="let foto of fotos">
+        <img src="{{foto}}" />
+      </ng-template>
+    </ngb-carousel>
+  </div>
+
+  <div class="content" [style.order]="order">
+    <div class="inner">
+      <header>
+        <h2>{{titulo}}</h2>
+      </header>
+      <p>
+        {{descripcion}}
+      </p>
     </div>
-</div>
+  </div>
+</article>

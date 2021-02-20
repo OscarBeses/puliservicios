@@ -6,7 +6,7 @@
 
  * Creator Page: https://oscarbeses.com
  * Template Page: http://www.creative-tim.com/product/paper-kit-2
- * Copyright 2020 Oscar Beses (http://www.creative-tim.com)
+ * Copyright 2020 Oscar Beses (https://oscarbeses.com)
  * Licensed under MIT (https://github.com/OscarBeses/puliservicios/blob/master/LICENSE)
 
  =========================================================
@@ -28,6 +28,10 @@
 
 .tim-title.text-center {
     margin-bottom: 50px;
+}
+
+.tim-title h2 {
+    padding: .8em 0 .4em 0;
 }
 
 .typography-line {

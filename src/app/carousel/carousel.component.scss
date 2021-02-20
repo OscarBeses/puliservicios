@@ -1,3 +1,34 @@
-:host > * {
-    background: lightsteelblue;
+@import "main.css";
+@import "../../assets/sass/paper-kit/variables";
+:host .content {
+  background-color: #294F6D;
+  h2{
+    color: #b4d7f1;
+  }
+  p {
+    color: #b4d7f1;
+    font-size: large;
+  }
+}
+.page-carousel {
+  width: 50%;
+  height: 67vh;
+  ngb-carousel {
+    height: 100%;
+    .carousel-inner{
+      .carousel-item{
+        max-height: unset;
+        img{
+          width:50%;
+          height:100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .page-carousel {
+    width: 100%;
+  }
 }

@@ -4,14 +4,13 @@ ngb-progressbar {
   margin-top: 5rem;
 }
 #buttonToMain i {
-    z-index: 1;
-    color: #fff;
-    opacity: 0.65;
-    margin-top: -45px;
-    position: relative;
-    top: -18vh;
-    left: calc(50% - 25px);
-    cursor: pointer;
+  z-index: 1;
+  color: #fff;
+  opacity: 0.65;
+  position: relative;
+  top: -18vh;
+  left: calc(50% - 25px);
+  cursor: pointer;
 }
 .carousel-caption p {
   font-size: x-large;
@@ -166,6 +165,9 @@ ngb-progressbar {
   }
   .presentation-subtitle {
     margin-top: 40px;
+  }
+  #buttonToMain i {
+    margin-top: -25px;
   }
 }
 
