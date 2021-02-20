@@ -1,5 +1,11 @@
 @import "../../assets/sass/paper-kit/variables";
 
+main {
+  background-color: #23425c;
+  .tim-title {
+    color: #b4d7f1;
+  }
+}
 ngb-progressbar {
   margin-top: 5rem;
 }

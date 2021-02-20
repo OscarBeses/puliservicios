@@ -1,7 +1,9 @@
 
 :host > * {
   background: lightgray;
-  min-height: 51vh;
+  min-height: 76vh;
+  display: flex;
+  align-items: center;
 }
 h2{
   margin: 0;

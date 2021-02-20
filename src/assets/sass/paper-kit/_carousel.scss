@@ -9,18 +9,18 @@
     &:hover,
     &:focus{
         opacity: 1;
-        background-color: darkblue;
+        background-color: #294F6D;
     }
 }
 .carousel-control-prev-icon{
     background-image: none !important;
     margin-top: -5px;
     &:before{
-        color: $white-color;
+        color: #b4d7f1;
         font-size: 26px;
         margin: 2px;
         padding-right: 3px;
-        font: normal normal normal 23px/1 FontAwesome !important;
+        font: normal normal normal 25px/1 FontAwesome !important;
         content: "\f104" !important;
     }
 }
@@ -28,11 +28,11 @@
     background-image: none !important;
     margin-top: -5px;
     &:before{
-        color: $white-color;
+        color: #b4d7f1;
         font-size: 26px;
         margin: 2px;
         padding-left: 2px;
-        font: normal normal normal 23px/1 FontAwesome !important;
+        font: normal normal normal 25px/1 FontAwesome !important;
         content: "\f105" !important;
     }
 }
