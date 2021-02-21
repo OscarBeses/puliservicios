@@ -9,6 +9,8 @@ import { Location, LocationStrategy, PathLocationStrategy } from '@angular/commo
 export class NavbarComponent implements OnInit {
     private toggleButton: any;
     private sidebarVisible: boolean;
+    private notMobile: boolean;
+    private notMuyPequenyo: boolean;
 
     constructor(public location: Location, private element : ElementRef) {
         this.sidebarVisible = false;
@@ -17,6 +19,8 @@ export class NavbarComponent implements OnInit {
     ngOnInit() {
         const navbar: HTMLElement = this.element.nativeElement;
         this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
+        this.notMobile = window.screen.width > 768;
+        this.notMuyPequenyo = window.screen.width > 340;
     }
     sidebarOpen() {
         const toggleButton = this.toggleButton;

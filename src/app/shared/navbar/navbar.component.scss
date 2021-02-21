@@ -518,3 +518,8 @@
   position: relative;
   top: -7px;
 }
+
+ul.navbar-nav {  
+  display: flex;
+  flex-direction: row;
+}

@@ -2,10 +2,42 @@
     <div class="container">
         <a class="navbar-brand">PuliServicios</a>
         <ul class="navbar-nav ml-auto">
+            <li *ngIf="notMuyPequenyo" class="nav-item">
+                <a class="nav-link my-0" 
+                    rel="tooltip" 
+                    title="Llámanos" 
+                    data-placement="bottom" 
+                    href="tel:+34658456268">
+                    <i class="fas fa-mobile-alt fa-3x"></i>
+                    <span *ngIf="notMobile" class="px-1 align-text-bottom centrarFacebook">
+                        658 456 268
+                    </span>
+                </a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link my-0" rel="tooltip" title="Visitanos en Facebook" data-placement="bottom" href="https://www.facebook.com/Puliservicios-397394460596334/" target="_blank">
+                <a class="nav-link my-0" 
+                    rel="tooltip" 
+                    title="Háblanos por WhatsApp" 
+                    data-placement="bottom" 
+                    href="https://api.whatsapp.com/send/?phone=34658456268&text=Hola%2C+me+interesa+solicitar+un+presupuesto&app_absent=0" 
+                    target="_blank">
+                    <i class="fab fa-whatsapp fa-3x"></i>
+                    <span *ngIf="notMobile" class="px-1 align-text-bottom centrarFacebook">
+                        Whatsapp
+                    </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link my-0" 
+                    rel="tooltip" 
+                    title="Visitanos en Facebook" 
+                    data-placement="bottom" 
+                    href="https://www.facebook.com/Puliservicios-397394460596334/" 
+                    target="_blank">
                     <i class="fab fa-facebook fa-3x"></i>
-                    <span class="px-1 align-text-bottom centrarFacebook">Facebook</span>
+                    <span *ngIf="notMobile" class="px-1 align-text-bottom centrarFacebook">
+                        Facebook
+                    </span>
                 </a>
             </li>
         </ul>
