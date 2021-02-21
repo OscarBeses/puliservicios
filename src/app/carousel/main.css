@@ -3764,7 +3764,6 @@ body.is-loading #banner > .inner {
   -ms-align-items: stretch;
   align-items: stretch;
   -ms-flex-pack: end;
-  min-height: calc(100vh - 20em);
   position: relative;
 }
 
