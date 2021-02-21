@@ -12,6 +12,7 @@
         background-color: #294F6D;
     }
 }
+
 .carousel-control-prev-icon{
     background-image: none !important;
     margin-top: -5px;
@@ -72,16 +73,6 @@
     border: none !important;
 }
 
-.carousel-indicators{
-    bottom: 0px;
-}
-.carousel-indicators li{
-    background-color: $white-color;
-    border: 0 none;
-}
-.carousel-indicators .active{
-    background-color: $social-facebook;
-}
 .page-carousel:hover{
     .carousel-control-prev,
     .carousel-control-next{

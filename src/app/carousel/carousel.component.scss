@@ -1,5 +1,6 @@
 @import "main.css";
 @import "../../assets/sass/paper-kit/variables";
+
 :host .content {
   background-color: #294F6D;
   h2{
@@ -10,25 +11,58 @@
     font-size: large;
   }
 }
-.page-carousel {
+article > div {
   width: 50%;
-  height: 67vh;
-  ngb-carousel {
-    height: 100%;
-    .carousel-inner{
-      .carousel-item{
-        max-height: unset;
-        img{
-          width:50%;
-          height:100%;
-          object-fit: cover;
-        }
-      }
-    }
+  max-height: 67vh;
+}
+ngb-carousel {
+  height: 100%;
+  img{
+    object-fit: cover;
+    width:100%;
+    margin: -5px 0;
   }
 }
-@media (max-width: 767px) {
-  .page-carousel {
-    width: 100%;
+
+:host ::ng-deep .carousel-indicators {
+  .active{
+    background-color: $social-facebook;
+  }
+  li {
+    background-color: $white-color;
+    border: 0 none;
+  }
+}
+
+/* En pantallas medianas y pequeñas */
+@media (max-width: 980px) {
+  article > div {
+    width: 100% !important;
+  }
+  img{
+    height: auto !important;
+  }
+  .content {
+    order: -1 !important;
+  }
+}
+
+/* En pantallas medianas y grandes arreglo la fila indicadora de fotos que no actúa bien */
+@media (min-width: 484px) {
+  :host ::ng-deep .carousel-indicators {
+    top: 63vh !important;
+  }
+}
+
+/* En pantallas pequeñas */
+@media screen and (max-width: 736px) {
+  .post .content {
+    padding: 2em 1.5em 3em 1.5em;
+    header h2 {
+      font-size: 1.75em;
+    }
+    .button {
+      width: 100%;
+    }
   }
 }

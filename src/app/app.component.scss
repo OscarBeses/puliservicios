@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  min-width: max(100vw, 300px) !important;
+}
+
+/*     General overwrite     */
+body {
+  color: #66615b;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  background-color: #fff;
+  
+}
+
+/*          Changes for small display      */
+@media (max-width: 767px) {
+  .navbar-transparent {
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+
+  body {
+    position: relative;
+    font-size: 12px;
+  }
+}
