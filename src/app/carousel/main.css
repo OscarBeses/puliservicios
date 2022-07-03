@@ -1878,7 +1878,7 @@ textarea {
 }
 
 a {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 strong,
@@ -2043,7 +2043,7 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
@@ -2331,7 +2331,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background-color: #fff;
   border-color: #fff;
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 input[type="checkbox"]:focus + label:before,
@@ -2775,16 +2775,16 @@ table.alt tbody tr td {
 .wrapper.style1 input,
 .wrapper.style1 select,
 .wrapper.style1 textarea {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .wrapper.style1 a {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .wrapper.style1 strong,
 .wrapper.style1 b {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .wrapper.style1 h1,
@@ -2793,7 +2793,7 @@ table.alt tbody tr td {
 .wrapper.style1 h4,
 .wrapper.style1 h5,
 .wrapper.style1 h6 {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .wrapper.style1 blockquote {
@@ -2818,7 +2818,7 @@ table.alt tbody tr td {
 .wrapper.style1 input[type="button"],
 .wrapper.style1 button,
 .wrapper.style1 .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
@@ -2845,7 +2845,7 @@ table.alt tbody tr td {
 .wrapper.style1 .button.alt {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-  color: #1abc9c !important;
+  color: #b4d7f1 !important;
 }
 
 .wrapper.style1 input[type="submit"].alt:hover,
@@ -2877,12 +2877,12 @@ table.alt tbody tr td {
 .wrapper.style1 input[type="button"].special,
 .wrapper.style1 button.special,
 .wrapper.style1 .button.special {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
 .wrapper.style1 label {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .wrapper.style1 input[type="text"],
@@ -2899,8 +2899,8 @@ table.alt tbody tr td {
 .wrapper.style1 input[type="email"]:focus,
 .wrapper.style1 select:focus,
 .wrapper.style1 textarea:focus {
-  border-color: #1abc9c;
-  box-shadow: 0 0 0 1px #1abc9c;
+  border-color: #b4d7f1;
+  box-shadow: 0 0 0 1px #b4d7f1;
 }
 
 .wrapper.style1 .select-wrapper:before {
@@ -2920,15 +2920,15 @@ table.alt tbody tr td {
 
 .wrapper.style1 input[type="checkbox"]:checked + label:before,
 .wrapper.style1 input[type="radio"]:checked + label:before {
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #b4d7f1;
+  border-color: #b4d7f1;
   color: #fff;
 }
 
 .wrapper.style1 input[type="checkbox"]:focus + label:before,
 .wrapper.style1 input[type="radio"]:focus + label:before {
-  border-color: #1abc9c;
-  box-shadow: 0 0 0 1px #1abc9c;
+  border-color: #b4d7f1;
+  box-shadow: 0 0 0 1px #b4d7f1;
 }
 
 .wrapper.style1 ::-webkit-input-placeholder {
@@ -2968,7 +2968,7 @@ table.alt tbody tr td {
 }
 
 .wrapper.style1 table th {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .wrapper.style1 table thead {
@@ -3034,7 +3034,7 @@ table.alt tbody tr td {
 .wrapper.style2 input[type="button"],
 .wrapper.style2 button,
 .wrapper.style2 .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
@@ -3508,7 +3508,7 @@ body {
 #banner input[type="button"],
 #banner button,
 #banner .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
@@ -3915,16 +3915,16 @@ body.is-ie .post {
 .post.style1 input,
 .post.style1 select,
 .post.style1 textarea {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .post.style1 a {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .post.style1 strong,
 .post.style1 b {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .post.style1 h1,
@@ -3933,7 +3933,7 @@ body.is-ie .post {
 .post.style1 h4,
 .post.style1 h5,
 .post.style1 h6 {
-  color: #1abc9c;
+  color: #b4d7f1;
 }
 
 .post.style1 blockquote {
@@ -3954,7 +3954,7 @@ body.is-ie .post {
 .post.style1 input[type="button"],
 .post.style1 button,
 .post.style1 .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
@@ -3981,7 +3981,7 @@ body.is-ie .post {
 .post.style1 .button.alt {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-  color: #1abc9c !important;
+  color: #b4d7f1 !important;
 }
 
 .post.style1 input[type="submit"].alt:hover,
@@ -4013,12 +4013,12 @@ body.is-ie .post {
 .post.style1 input[type="button"].special,
 .post.style1 button.special,
 .post.style1 .button.special {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
 .post.style1.invert {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -4065,7 +4065,7 @@ body.is-ie .post {
 .post.style1.invert button,
 .post.style1.invert .button {
   background-color: #fff;
-  color: #1abc9c !important;
+  color: #b4d7f1 !important;
 }
 
 .post.style1.invert input[type="submit"].alt,
@@ -4108,11 +4108,11 @@ body.is-ie .post {
 .post.style1.invert button.special,
 .post.style1.invert .button.special {
   background-color: #fff;
-  color: #1abc9c !important;
+  color: #b4d7f1 !important;
 }
 
 .post.style1.invert .content {
-  background: #1abc9c;
+  background: #b4d7f1;
 }
 
 .post.style1.invert .content header p {
@@ -4137,7 +4137,7 @@ body.is-ie .post {
 }
 
 .post.style1.invert .image {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
 }
 
 .post.style2 {
@@ -4187,7 +4187,7 @@ body.is-ie .post {
 .post.style2 input[type="button"],
 .post.style2 button,
 .post.style2 .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
@@ -4297,7 +4297,7 @@ body.is-ie .post {
 .post.style2.invert input[type="button"],
 .post.style2.invert button,
 .post.style2.invert .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
@@ -4436,7 +4436,7 @@ body.is-ie .post {
 .post.style3 input[type="button"],
 .post.style3 button,
 .post.style3 .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 
@@ -4546,7 +4546,7 @@ body.is-ie .post {
 .post.style3.invert input[type="button"],
 .post.style3.invert button,
 .post.style3.invert .button {
-  background-color: #1abc9c;
+  background-color: #b4d7f1;
   color: #fff !important;
 }
 

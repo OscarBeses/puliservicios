@@ -115,7 +115,6 @@ export class ComponentsComponent implements OnInit {
         return [
             './assets/img/carousel/hidraulico/1.jpeg',
             './assets/img/carousel/hidraulico/2.jpeg',
-            './assets/img/carousel/hidraulico/3.mp4',
             './assets/img/carousel/hidraulico/4.jpeg',
             './assets/img/carousel/hidraulico/5.jpeg',
             './assets/img/carousel/hidraulico/6.jpeg',

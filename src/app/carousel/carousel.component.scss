@@ -2,18 +2,15 @@
 @import "../../assets/sass/paper-kit/variables";
 
 :host .content {
-  background-color: #294F6D;
-  h2{
-    color: #b4d7f1;
-  }
-  p {
+  background: rgb(41,79,109);
+  background: linear-gradient(90deg, rgba(41,79,109,1) 0%, rgba(41,79,109,1) 25%, rgba(64,123,170,1) 100%); p {
     color: #b4d7f1;
     font-size: large;
   }
 }
 article > div {
   width: 50%;
-  max-height: 67vh;
+  max-height: 50vh;
 }
 ngb-carousel {
   height: 100%;
@@ -25,6 +22,7 @@ ngb-carousel {
 }
 
 :host ::ng-deep .carousel-indicators {
+  bottom: 15%;
   .active{
     background-color: $social-facebook;
   }
@@ -44,13 +42,6 @@ ngb-carousel {
   }
   .content {
     order: -1 !important;
-  }
-}
-
-/* En pantallas medianas y grandes arreglo la fila indicadora de fotos que no actúa bien */
-@media (min-width: 484px) {
-  :host ::ng-deep .carousel-indicators {
-    top: 63vh !important;
   }
 }
 
