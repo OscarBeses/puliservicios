@@ -38,7 +38,6 @@ import { CarouselComponent } from './../carousel/carousel.component';
         ContactoComponent,
         CarouselComponent
     ],
-    entryComponents: [NgbdModalContent],
-    exports:[ ComponentsComponent ]
+    exports: [ComponentsComponent]
 })
 export class ComponentsModule { }
