@@ -1,7 +1,7 @@
 <article class="post style1">
 
   <div class="page-carousel">
-    <ngb-carousel interval="8000">
+    <ngb-carousel [interval]="8000">
       <ng-template ngbSlide *ngFor="let foto of fotos">
         <img *ngIf="foto.endsWith('.jpeg')" src="{{foto}}" />
         <video *ngIf="foto.endsWith('.mp4')" controls autoplay [muted]="'muted'">
