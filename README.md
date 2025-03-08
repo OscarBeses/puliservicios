@@ -1,6 +1,6 @@
 Realizado con:        angular, solo front-end.
 Desplegado en:        firebase (gratis).
-Dominio comprado en:  google domains (12€). --> https://puliservicios.com/
+Dominio comprado en:  namecheap (12€). --> https://puliservicios.com/
 
 Al editar:
 1. git pull
